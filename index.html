@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <title>arneee</title>
+  <script type="text/javascript" src="scripting.js" defer></script>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/x-icon" href="images/favicon.png">
   <meta charset="UTF-8">
@@ -11,5 +12,21 @@
   </header>
   <main>
     <h1>Arneee</h1>
+    <div>
+      <div id="container">
+        <span id="text1"></span>
+        <span id="text2"></span>
+      </div>
+      <svg id="filters">
+        <defs>
+            <filter id="threshold">
+                <feColorMatrix in="SourceGraphic" type="matrix" values="1 0 0 0 0
+                      0 1 0 0 0
+                      0 0 1 0 0
+                      0 0 0 255 -140" />
+            </filter>
+        </defs>
+      </svg>
+    </div>
   </main>
 </body>
