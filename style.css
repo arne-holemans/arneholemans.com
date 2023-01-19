@@ -29,9 +29,9 @@ h1{
 #container {
     position: absolute;
     margin: auto;
-    width: 100vw;
+    width: 99%;
     height: 80pt;
-    top: 0;
+    top: 15%;
     bottom: 0;
     filter: url(#threshold) blur(0.6px);
 }
