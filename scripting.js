@@ -4,13 +4,7 @@ const elts = {
 };
 
 const texts = [
-    "Software",
-    "Networks",
-    "Gaming",
-    "Data Science",
-    "Programming",
-    "Systems",
-    "Engineering"
+    "Hey!"
 ];
 
 const morphTime = 1;
