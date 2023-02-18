@@ -4,7 +4,10 @@ const elts = {
 };
 
 const texts = [
-    "Hey!"
+    "Networks",
+    "Java",
+    "Python",
+    "Systems"
 ];
 
 const morphTime = 1;
