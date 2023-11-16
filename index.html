@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
   <title>Arne Holemans</title>
   <script type="text/javascript" src="scripting.js" defer></script>
@@ -10,20 +10,32 @@
   <header>
     <img src="images/portrait.png" alt="My portrait">
     <div>
-      <p>Hello, my name is</p>
       <h1>Arne Holemans</h1>
+      <p lang="en" class="tagline">Network & Server Infrastructure Enthusiast</p>
+      <p lang="nl" class="tagline">Network & Server Infrastructure Enthusiast</p>
     </div>
   </header>
   <main>
-    <p>Laatstejaarsstudent Toegepaste Informatica met een enthousiaste passie voor netwerk- en serverinfrastructuur.
-    Gedreven om mijn technische vaardigheden verder te ontwikkelen en te groeien in het veld. Ik ben altijd bereid
-    om te leren en ga steeds op zoek naar kansen om mijn kennis uit te breiden.</p>
-    <h4>Educatie:</h4>
-    <p>UCLL • Toegepaste Informatica • Keuzetraject Systeem- & Netwerkbeheer</p>
+    <div lang="en">
+      <p class="bio">Final-year Applied Computer Science student with a passionate focus on network and server infrastructure. Dedicated to advancing technical skills and excelling in the field. Always eager to learn and actively seeking opportunities to expand knowledge.</p>
+      <h4>Educational Background:</h4>
+      <p class="education">UCLL • Applied Computer Science • Specialization in System & Network Administration</p>
+    </div>
+    <div lang="nl">
+      <p class="bio">Laatstejaarsstudent Toegepaste Informatica met een enthousiaste passie voor netwerk- en serverinfrastructuur. Gedreven om mijn technische vaardigheden verder te ontwikkelen en te groeien in het veld. Ik ben altijd bereid om te leren en ga steeds op zoek naar kansen om mijn kennis uit te breiden.</p>
+      <h4>Educatie:</h4>
+      <p class="education">UCLL • Toegepaste Informatica • Keuzetraject Systeem- & Netwerkbeheer</p>
+    </div>
   </main>
   <footer>
-    &copy; Arne Holemans - <span id="copyright-date">2023</span>
-    <p class="ubuntu">Running from my Ubuntu Server</p>
+    &copy; 2023 Arne Holemans. All Rights Reserved.
+    <p lang="en" class="server-info">Hosted on my Ubuntu Server</p>
+    <p lang="nl" class="server-info">Gehost op mijn Ubuntu Server</p>
   </footer>
+  <!-- Language Switch Buttons -->
+  <div class="language-buttons">
+    <button class="langbutton" onclick="switchLanguage('en')">English</button>
+    <button class="langbutton" onclick="switchLanguage('nl')">Nederlands</button>
+  </div>
 </body>
 </html>
