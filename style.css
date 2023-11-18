@@ -106,3 +106,8 @@ a {
   margin-top: 0;
   margin-right: 0; /* Move the buttons to the right */
 }
+
+.mail-item {
+  padding: 0.2em;
+  font-size: 0.8em;
+}
