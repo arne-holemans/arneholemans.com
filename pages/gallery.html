@@ -1,22 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>gallery</title>
-  <script type="text/javascript" src="scripting.js" defer></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <title>Arne Holemans</title>
+  <script type="text/javascript" src="../scripting.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="../style.css">
   <meta charset="UTF-8">
 </head>
 <body>
   <header>
-    <nav>
-      <li><a>home</a></li>
-      <li><a>gallery</a></li>
-      <li><a>about</a></li>
-      <li><a>contact</a></li>
-    </nav>
+    <img class="picture" src="../images/arneholemans.png" alt="Arne Holemans">
+    <div class="grid-container-nav">
+      <div class="grid-item-nav-shortinfo">
+        <h1>Arne Holemans</h1>
+        <p lang="en" class="tagline">Network & Server Infrastructure Enthusiast</p>
+        <p lang="nl" class="tagline">Network & Server Infrastructure Enthusiast</p>
+      </div>
+      <div class="grid-item-nav-button">
+        <a href="../index.html">Home</a>
+        <a href="/">Gallery</a>
+        <a href="about.html">About me</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
   </header>
+
   <main>
-    <h1>Arneee</h1>
+    <div lang="en">
+      <h1> Gallery </h1>
+    </div>
+    <div lang="nl">
+      <h1> Gallerij </h1>
+    </div>
   </main>
+  <footer>
+    &copy; 2023 Arne Holemans. All Rights Reserved.
+    <p lang="en" class="server-info">Hosted on my Ubuntu Server</p>
+    <p lang="nl" class="server-info">Gehost op mijn Ubuntu Server</p>
+  </footer>
+  <!-- Language Switch Buttons -->
+  <div class="language-buttons">
+    <button class="langbutton" onclick="switchLanguage('en')">English</button>
+    <button class="langbutton" onclick="switchLanguage('nl')">Nederlands</button>
+  </div>
 </body>
+</html>
