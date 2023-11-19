@@ -1,22 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <title>about</title>
-  <script type="text/javascript" src="scripting.js" defer></script>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="icon" type="image/x-icon" href="images/favicon.png">
+  <title>Arne Holemans</title>
+  <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+  <script type="text/javascript" src="../scripting.js" defer></script>
+  <link rel="stylesheet" type="text/css" href="../style.css">
   <meta charset="UTF-8">
 </head>
 <body>
   <header>
-    <nav>
-      <li><a>home</a></li>
-      <li><a>gallery</a></li>
-      <li><a>about</a></li>
-      <li><a>contact</a></li>
-    </nav>
+    <div class="mobile-dropdown">
+      <button class="dropdown-toggle" onclick="toggleDropdown()">Menu</button>
+      <div class="dropdown-content">
+        <a href="../index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="about.html">About me</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+    <img class="picture" src="../images/arneholemans.png" alt="Arne Holemans">
+    <div class="grid-container-nav">
+      <div class="grid-item-nav-shortinfo">
+        <h1>Arne Holemans</h1>
+        <p lang="en" class="tagline">Network & Server Infrastructure Enthusiast</p>
+        <p lang="nl" class="tagline">Network & Server Infrastructure Enthusiast</p>
+      </div>
+      <div class="grid-item-nav-button">
+        <a href="../index.html">Home</a>
+        <a href="education.html">Education</a>
+        <a href="about.html">About me</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
   </header>
+
   <main>
-    <h1>Arneee</h1>
+    <div lang="en">
+      <h1> About me </h1>
+      <p>👨‍💻Last year student in Applied Informatics with a deep passion for all things IT. 🚀 Specializing in network and server infrastructure, as well as cybersecurity. 💻 Excited about embracing and mastering new technologies. Let's connect and explore the future of IT together! 🌐 #TechEnthusiast #Cybersecurity #ITInnovator</p>
+    </div>
+    <div lang="nl">
+      <h1> Over mij </h1>
+      <p>👨‍💻Laatstejaarsstudent Toegepaste Informatica met een diepe passie voor alles wat met IT te maken heeft. 🚀 Gespecialiseerd in netwerk- en serverinfrastructuur, evenals cybersecurity. 💻 Enthousiast over het omarmen en beheersen van nieuwe technologieën. Laten we verbinding maken en samen de toekomst van IT verkennen! 🌐 #TechEnthusiast #Cybersecurity #ITInnovator</p>
+    </div>
   </main>
+  <footer>
+    &copy; 2023 Arne Holemans. All Rights Reserved.
+    <p lang="en" class="server-info">Hosted on my Ubuntu Server 22.04.3 LTS</p>
+    <p lang="nl" class="server-info">Gehost op mijn Ubuntu Server 22.04.3 LTS</p>
+  </footer>
+  <!-- Language Switch Buttons -->
+  <div class="language-buttons">
+    <button class="langbutton" onclick="switchLanguage('en')">English</button>
+    <button class="langbutton" onclick="switchLanguage('nl')">Nederlands</button>
+  </div>
 </body>
+</html>
