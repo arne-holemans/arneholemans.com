@@ -39,6 +39,11 @@ h1 {
   color: #333;
 }
 
+h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
 h4 {
   font-size: 1.5rem;
   margin-bottom: 1rem;
@@ -122,6 +127,48 @@ a {
   background-color: #f9f9f9;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   z-index: 1;
+}
+
+.skills-section {
+  margin-top: 20px;
+}
+
+.skills-section h2 {
+  color: #333;
+}
+
+.skills-subcategory {
+  margin-bottom: 20px;
+}
+
+.skills-subcategory h3 {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.skills-list {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.skills-list-item {
+  margin: 5px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+.education-div,
+.skills-div {
+  background-color: #f2f2f2; /* Grey background color */
+  padding: 10px; /* Add some padding for better spacing */
+  border-radius: 10px; /* Rounded corners for a softer look */
+  margin-bottom: 20px; /* Add some margin at the bottom */
 }
 
 @media only screen and (max-width: 1200px) {
@@ -263,6 +310,10 @@ a {
   }
 
   h1 {
+    font-size: 2em; /* Decrease heading font size */
+  }
+
+  h2 {
     font-size: 2em; /* Decrease heading font size */
   }
 
