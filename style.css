@@ -134,9 +134,15 @@ a {
 
 .contact-button {
   margin-bottom: 5em;
+  padding: 0.5em;
+  font-size: larger;
 }
 
 .mobile-dropdown {
+  display: none;
+}
+
+.mobile {
   display: none;
 }
 
@@ -206,6 +212,11 @@ a {
   header {
     background-color: none;
     padding: 0;
+    display: block;
+  }
+
+  .mobile {
+    margin-top: 5em;
     display: block;
   }
 
@@ -289,6 +300,15 @@ a {
     display: none;
   }
 
+  .contact-button {
+    padding: 0.8em;
+    font-size: 2em;
+  }
+
+  .contact-buttons {
+    display: block;
+  }
+
   .mail-item {
     padding: 0.5em;
     font-size: 2em;
@@ -309,6 +329,11 @@ a {
   header {
     background-color: none;
     padding: 0;
+    display: block;
+  }
+
+  .mobile {
+    margin-top: 3em;
     display: block;
   }
 
@@ -394,5 +419,14 @@ a {
   .mail-item {
     padding: 0.5em;
     font-size: 1em;
+  }
+
+  .contact-button {
+    padding: 0.4em;
+    font-size: 2em;
+  }
+
+  .contact-buttons {
+    display: block;
   }
 }
