@@ -235,6 +235,10 @@ a {
     font-size: 2em; /* Decrease heading font size */
   }
 
+  h2 {
+    font-size: 4rem;
+  }
+
   h4 {
     font-size: 1.2em; /* Decrease heading font size */
   }
