@@ -19,18 +19,6 @@ body {
   box-sizing: border-box;
 }
 
-@keyframes gradientAnimation {
-  0% {
-    background-position: 0% 50%;
-  }
-  50% {
-    background-position: 100% 50%;
-  }
-  100% {
-    background-position: 0% 50%;
-  }
-}
-
 header {
   display: grid;
   grid-template-columns: auto auto auto auto auto;
@@ -98,7 +86,7 @@ footer {
 }
 
 a {
-  background-color: #3498db;
+  background-color: #6eb0dd;
   border-radius: 1em;
   border: 3px solid #333;
   text-decoration: none;
@@ -267,7 +255,7 @@ a {
   }
 
   .dropdown-toggle {
-    background-color: #3498db;
+    background-color: #6eb0dd;
     border-radius: 1em;
     border: 3px solid #333;
     color: white;
@@ -294,6 +282,7 @@ a {
     display: block;
     text-decoration: none;
     margin-top: 0.2em;
+    font-size: 1.5em;
   }
 
   .language-buttons{
@@ -301,17 +290,22 @@ a {
   }
 
   .contact-button {
-    padding: 0.8em;
-    font-size: 2em;
+    padding: 0.5em;
+    font-size: 4em;
+    margin-bottom: 0.5em;
   }
 
   .contact-buttons {
-    display: block;
+    display: grid;
   }
 
   .mail-item {
     padding: 0.5em;
     font-size: 2em;
+  }
+
+  footer {
+    font-size: 2.5em;
   }
 }
 
