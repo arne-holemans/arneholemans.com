@@ -247,7 +247,7 @@ a {
   }
 
   .mobile-dropdown {
-    background-color: none;
+    background-color: transparent;
     display: block;
     margin-left: auto;
     margin-right: 0;
@@ -261,19 +261,19 @@ a {
     color: white;
     padding: 0.5em;
     cursor: pointer;
-    margin: 1em 1em;
-    font-size: 3em;
+    margin: 0.5em 0.5em;
+    font-size: 4em;
     float: right; /* Align the button to the right */
   }
 
   .dropdown-content {
-    margin-top: 4em;
+    margin-top: 3em;
     width: 100%;
     position: absolute;
     right: 0; /* Align the dropdown content to the right */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    background-color: none;
-    font-size: 3em;
+    background-color: transparent;
+    font-size: 4em;
   }
 
   .dropdown-content a{
