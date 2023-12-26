@@ -25,3 +25,33 @@ function updateCurrentDate() {
 window.onload = function () {
   updateCurrentDate();
 };
+
+
+
+
+
+
+
+// List of words to display
+var wordsList = ["Enthusiastic about cybersecurity", "Enthusiastic about technology", "Enthusiastic about coffee", "Enthusiastic about watches"];
+
+// Index to keep track of the current word
+var currentIndex = 0;
+
+// Function to update the text content
+function updateText() {
+    // Get the element by its ID
+    var changingTextElement = document.getElementById("changingText");
+
+    // Update the text content with the current word
+    changingTextElement.textContent = wordsList[currentIndex];
+
+    // Increment the index, and reset to 0 if it exceeds the length of the list
+    currentIndex = (currentIndex + 1) % wordsList.length;
+}
+
+// Call the updateText function every 5 seconds
+setInterval(updateText, 2000);
+
+// Initial call to set the text immediately when the page loads
+updateText();
