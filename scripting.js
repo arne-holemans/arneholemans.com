@@ -33,7 +33,7 @@ window.onload = function () {
 
 
 // List of words to display
-var wordsList = ["Enthusiastic about cybersecurity", "Enthusiastic about technology", "Enthusiastic about coffee", "Enthusiastic about watches"];
+var wordsList = ["Enthusiastic about cybersecurity", "Enthusiastic about technology", "Enthusiastic about coffee", "Enthusiastic about AI", "Enthusiastic about cloud"];
 
 // Index to keep track of the current word
 var currentIndex = 0;
