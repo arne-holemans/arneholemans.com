@@ -121,9 +121,17 @@ a {
 }
 
 .contact-button {
+  background-color: transparent;
+  border-color: transparent;
+  color: black;
   margin-bottom: 5em;
   padding: 0.5em;
   font-size: larger;
+}
+
+.contact-button > img {
+  height: 3em;
+  width: 3em;
 }
 
 .mobile-dropdown {
