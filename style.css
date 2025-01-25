@@ -184,6 +184,24 @@ a {
   color: #333;
 }
 
+/*hide de scrollbar */
+* {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+*::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+.element-class {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;  /* Internet Explorer 10+ */
+}
+.element-class::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+}
+
 .languages-div,
 .education-div,
 .skills-div {
